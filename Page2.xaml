@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PageNotClosingDemo.Page2">
+    <VerticalStackLayout
+        Padding="12"
+        Spacing="6">
+
+        <Button Text="Do something again" Clicked="DoSomethingButtonClicked"/>
+
+        <Button Text="Show an error instead" Clicked="ShowAnErrorButtonClicked"/>
+        
+    </VerticalStackLayout>
+</ContentPage>
